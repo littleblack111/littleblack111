@@ -19,6 +19,7 @@
 - `remove`: Removes something in the code, don't nessesarily have to be a bug(need specification on what is removed)
 - `add`: Adds something in the code, or file(mention the file in "()"), don't nessesarily have to be a feature(need specification on what is added)
 - `sync`: Syncs the code with another branch or repository(need specification on what is synced)
+- `enable`: Enables a feature or a function(need specification on what is enabled), specific for configs
 - `BREAKING CHANGE`: A commit that has a breaking change that will affect the codebase
 ##### Example:
 - `feat(functionName): Added a new function that does something`
