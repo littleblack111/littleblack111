@@ -4,7 +4,7 @@
 #### All prefix should include a () after the prefix to specify what is the change specifically (for example a function name, a file name, a variable name, or a general description of where the change is made)
 - `feat`: A new feature is introduced with the change
 - `fix`: A bug is fix has occured
-- `chore`: Changes that do not relate to a fix or a feature and don't modify the code (for example adding .gitignore)
+- `chore`: Changes that do not relate to a fix or a feature and don't modify the code (for example adding `.gitignore`)
 - `bump`: Bumps a version of a package or the project itself(need specification on what is bumped)
 - `refactor`: A code change that neither fixes a bug nor adds a feature
 - `docs`: Updates to the documentation such as README.md or other documentation files
@@ -17,6 +17,7 @@
 - `revert`: Reverts a previous commit (need specification on what is reverted)(doesn't nessesarily have to be a commit)
 - `change`: Changes that are not a fix or a feature, just a general change(need specification on what is the change)
 - `remove`: Removes something in the code, don't nessesarily have to be a bug(need specification on what is removed)
+- `move`: Moves one file to another place, specify with a arrow(->) where the file is moved to (for example, `move(reason/notes): file1 -> file2`)
 - `add`: Adds something in the code, or file(mention the file in "()"), don't nessesarily have to be a feature(need specification on what is added)
 - `sync`: Syncs the code with another branch or repository(need specification on what is synced)
 - `enable`: Enables a feature or a function(need specification on what is enabled), specific for configs
@@ -37,6 +38,7 @@ In this example, A is a bad subject because it doesn't specify what is being cha
 - `feat(functionName): Added a new function that does something`
 #### Usage:
 Use `git -m subject/title -m body/description` to add a body to a commit message
+#### Any changes that is not the main changes but is in the commit should be added to the body
 
 ## General
 - Length:
