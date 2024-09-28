@@ -49,3 +49,6 @@ Use `git -m subject/title -m body/description` to add a body to a commit message
 - What effect have my changes made?
 - Why was the change needed?
 - What are the changes in reference to?
+
+## TIPS
+- Checkout (Commitizen)[https://commitizen-tools.github.io/commitizen]
