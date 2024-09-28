@@ -5,7 +5,7 @@
 - `feat`: A new feature is introduced with the change
 - `fix`: A bug is fix has occured
 - `chore`: Changes that do not relate to a fix or a feature and don't modify the code (for example adding `.gitignore`)
-- `bump`: Bumps a version of a package or the project itself(need specification on what is bumped)
+- `bump`: Bumps a version of a package or the project itself(need specification on what is bumped), specify the version bumped from and to with a arrow(->) (for example, `bump(package.json): 1.0.0 -> 1.0.1`)
 - `refactor`: A code change that neither fixes a bug nor adds a feature
 - `docs`: Updates to the documentation such as README.md or other documentation files
 - `style`: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
