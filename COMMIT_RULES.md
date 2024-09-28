@@ -1,4 +1,4 @@
-# My commit message rules
+# Commit conventions
 
 ## Prefix/Type:
 #### All prefix should include a () after the prefix to specify what is the change specifically (for example a function name, a file name, a variable name, or a general description of where the change is made)
