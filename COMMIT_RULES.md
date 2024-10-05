@@ -23,6 +23,7 @@
 - `enable`: Enables a feature or a function(need specification on what is enabled), specific for configs
 - `featureName`: The literal name of the change, for example, `renderer: Fix resize artifacts (stretching, bumps)` or `monitor: cleanup and modernize scheduleDone`
 - `core`: A commit that has a breaking change that will affect the codebase or its core
+- `internal`: Changes that are internal and are not meant to be seen by or affect the user
 ##### Example:
 - `feat(functionName): Added a new function that does something`
 
