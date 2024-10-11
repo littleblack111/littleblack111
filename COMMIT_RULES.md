@@ -22,8 +22,10 @@
 - `sync`: Syncs the code with another branch or repository(need specification on what is synced)
 - `enable`: Enables a feature or a function(need specification on what is enabled), specific for configs
 - `featureName`: The literal name of the change, for example, `renderer: Fix resize artifacts (stretching, bumps)` or `monitor: cleanup and modernize scheduleDone`
-- `core`: A commit that has a breaking change that will affect the codebase or its core
+- `core`: A commit that affects the core of the project
 - `internal`: Changes that are internal and are not meant to be seen by or affect the user
+#### Special / Notes:
+- add a `!` after the prefix to specify that its a breaking change, e.g. `feat!`, `core!` etc
 ##### Example:
 - `feat(functionName): Added a new function that does something`
 
