@@ -24,6 +24,7 @@
 - `featureName`: The literal name of the change, for example, `renderer: Fix resize artifacts (stretching, bumps)` or `monitor: cleanup and modernize scheduleDone`
 - `core`: A commit that affects the core of the project
 - `internal`: Changes that are internal and are not meant to be seen by or affect the user
+- `structure`: Changes the structure of the codebase
 #### Special / Notes:
 - add a `!` after the prefix to specify that its a breaking change, e.g. `feat!`, `core!` etc
 ##### Example:
