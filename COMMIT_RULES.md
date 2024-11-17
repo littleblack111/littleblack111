@@ -8,7 +8,7 @@
 - `bump`: Bumps a version of a package or the project itself(need specification on what is bumped), specify the version bumped from and to with a arrow(->) (for example, `bump(package.json): 1.0.0 -> 1.0.1`)
 - `refactor`: A code change that neither fixes a bug nor adds a feature
 - `docs`: Updates to the documentation such as README.md or other documentation files
-- `style`: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+- `style`: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc), or in web development, changes that are related to the style of the website
 - `test`: Including new or correcting existing tests
 - `perf`: Performance Improvements
 - `ci`: Continues Integration related changes
@@ -17,18 +17,19 @@
 - `revert`: Reverts a previous commit (need specification on what is reverted)(doesn't nessesarily have to be a commit)
 - `change`: Changes that are not a fix or a feature, just a general change(need specification on what is the change)
 - `remove`: Removes something in the code, don't nessesarily have to be a bug(need specification on what is removed)
-- `move`: Moves one file to another place, specify with a arrow(->) where the file is moved to (for example, `move(reason/notes): file1 -> file2`)
+- `move`: Moves one file to another place, specify with a arrow(->) where the file is moved to (for example, ``move(reason/notes): `file1` -> `file2` ``)
 - `add`: Adds something in the code, or file(mention the file in "()"), don't nessesarily have to be a feature(need specification on what is added)
 - `sync`: Syncs the code with another branch or repository(need specification on what is synced)
 - `enable`: Enables a feature or a function(need specification on what is enabled), specific for configs
-- `featureName`: The literal name of the change, for example, `renderer: Fix resize artifacts (stretching, bumps)` or `monitor: cleanup and modernize scheduleDone`
+- `feature/function Name`: The literal name of the change, for example, `renderer: Fix resize artifacts (stretching, bumps)` or `monitor: cleanup and modernize scheduleDone`
 - `core`: A commit that affects the core of the project
 - `internal`: Changes that are internal and are not meant to be seen by or affect the user
 - `structure`: Changes the structure of the codebase
 #### Special / Notes:
 - add a `!` after the prefix to specify that its a breaking change, e.g. `feat!`, `core!` etc
+- use `` ` `` wrap around a specific function name, file name, variable name and any specific things mentioned that is in the code
 ##### Example:
-- `feat(functionName): Added a new function that does something`
+- ``feat(`functionName`): Added a new function that does something``
 
 ## Subject
 #### The subject contains a succinct description of the change, and if possible a reason for the change:
