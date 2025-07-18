@@ -68,7 +68,7 @@ Full Stack Programmer / Arch Ricer
             <img src="./icons/socials/twitter.svg" width="32" height="32" />
         </picture>
     </a>
-    <a href="https://www.reddit.com/user/littleblack111" target="_blank" rel="noreferrer">
+    <a href="https://www.reddit.com/user/littleblack11111" target="_blank" rel="noreferrer">
         <picture>
             <source srcset="./icons/socials/reddit.png" />
             <img src="./icons/socials/reddit.png" width="32" height="32" />
