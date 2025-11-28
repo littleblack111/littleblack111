@@ -5,9 +5,8 @@ Full Stack Programmer / Arch Ricer
 ------------------------------------
 
 * 🌍  I'm based in Hong Kong
-* 🖥️  See my portfolio at [littleblack111.com](http://littleblack111.com)
+* 🖥️  See my portfolio at [littleblack111.com](https://littleblack111.com)
 * ✉️  You can contact me at [littleblack11111@gmail.com](mailto:littleblack11111@gmail.com)
-* 🧠  I'm learning React
 * 🤝  I'm open to collaborating on Amazing projects
 * ⚡  I use arch BTW
 
@@ -93,5 +92,3 @@ Full Stack Programmer / Arch Ricer
 <a href="https://github.com/littleblack111" align="left">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=littleblack111&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" />
 </a>
-
-![WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=littleblack111)
